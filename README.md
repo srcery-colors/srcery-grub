@@ -14,7 +14,9 @@
   </a>
 </p>
 
-<h2 align="center">[THEME NAME]</h2>
+https://github.com/voidlhf/StarRailGrubThemes/tree/master/assets/icons
+
+<h2 align="center">GNU GRUB</h2>
 
 <p align="center">
 [THEME DESCRIPTION]
@@ -22,6 +24,19 @@
 
 
 ## Requirements
+
+- GRUB
+
+
 ## Installation
+
+- Copy the `srcery` folder from this reposittory to `/boot/grup2/themes`
+- Set `GRUB_THEME` in `/etc/default/grub` to `GRUB_THEME=srcery`
+- Run `sudo grub2-mkconfig -o /boot/grub2/grub.cfg`
+- Reboot
+
 ## Screenshots
 
+## Acknowledgement
+
+- https://github.com/voidlhf/StarRailGrubThemesor for icons.

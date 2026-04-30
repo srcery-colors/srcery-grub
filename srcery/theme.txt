@@ -42,3 +42,33 @@ desktop-color: "#1C1B19"
   color = "#BAA67F"
   text = "Use ↑/↓ to navigate, Enter to boot, 'e' to edit"
 }
+
+# TEXT
++ label {
+    id = "__timeout__"
+
+    left = 50%
+    top = 100%-31
+    height = 24
+    width = 50%-6
+
+    text = "Joining world in %d seconds"
+    align = "right"
+    font = "Iosevka Regular 16"
+    color = "white"
+}
+
+# SHADOW
++ label {
+    id = "__timeout__"
+
+    left = 50%+3
+    top = 100%-28
+    height = 24
+    width = 50%-6
+
+    text = "Joining world in %d seconds"
+    align = "right"
+    font = "Iosevka Regular 16"
+    color = "#3f3f3f"
+}
