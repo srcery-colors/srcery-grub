@@ -31,7 +31,8 @@ https://github.com/voidlhf/StarRailGrubThemes/tree/master/assets/icons
 ## Installation
 
 - Copy the `srcery` folder from this reposittory to `/boot/grup2/themes`
-- Set `GRUB_THEME` in `/etc/default/grub` to `GRUB_THEME=srcery`
+- Set `GRUB_THEME` in `/etc/default/grub` to `GRUB_THEME=/boot/grub2/themes/srcery/theme.txt`
+- Set `GRUB_TERMINAL_OUTPUT="gfxterm"`
 - Run `sudo grub2-mkconfig -o /boot/grub2/grub.cfg`
 - Reboot
 
