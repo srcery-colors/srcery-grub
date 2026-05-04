@@ -39,4 +39,4 @@ https://github.com/voidlhf/StarRailGrubThemes/tree/master/assets/icons
 
 ## Acknowledgement
 
-- https://github.com/voidlhf/StarRailGrubThemesor for icons.
+- https://github.com/voidlhf/StarRailGrubThemes for icons.
