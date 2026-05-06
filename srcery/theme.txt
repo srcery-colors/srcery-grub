@@ -2,11 +2,11 @@
 # Palette: #121212 (Bg), #FCE8C3 (Fg), #68A8E4 (Blue), #519F50 (Green)
 
 # Global Settings
-title-font: "Iosevka Regular 16"
+title-font: "Iosevka Regular 24"
 title-color: "#BAA67F"
-message-font: "Iosevka Regular 16"
+message-font: "Iosevka Regular 24"
 message-color: "#E02C6D"
-terminal-font: "Iosevka Regular 16"
+terminal-font: "Iosevka Regular 24"
 terminal-left: "0"
 terminal-top: "0"
 terminal-width: "100%"
@@ -17,13 +17,20 @@ terminal-border: "0"
 # desktop-image: "background.jpg"
 desktop-color: "#1C1B19"
 
+# Glyph
++ image {
+  file = images/glyph.png
+  left = 10%
+  top = 25%
+}
+
 # Boot Menu
 + boot_menu {
-  left = 15%
+  left = 25%
   width = 70%
   top = 25%
   height = 50%
-  item_font = "Iosevka Regular 16"
+  item_font = "Iosevka Regular 24"
   item_color = "#BAA67F"
   selected_item_color = "#FCE8C3"
   #selected_item_pixmap = "select_bar.png"
@@ -54,7 +61,7 @@ desktop-color: "#1C1B19"
 
     text = "Joining world in %d seconds"
     align = "right"
-    font = "Iosevka Regular 16"
+    font = "Iosevka Regular 24"
     color = "white"
 }
 
@@ -69,6 +76,6 @@ desktop-color: "#1C1B19"
 
     text = "Joining world in %d seconds"
     align = "right"
-    font = "Iosevka Regular 16"
+    font = "Iosevka Regular 24"
     color = "#3f3f3f"
 }

@@ -14,8 +14,6 @@
   </a>
 </p>
 
-https://github.com/voidlhf/StarRailGrubThemes/tree/master/assets/icons
-
 <h2 align="center">GNU GRUB</h2>
 
 <p align="center">
@@ -40,4 +38,5 @@ https://github.com/voidlhf/StarRailGrubThemes/tree/master/assets/icons
 
 ## Acknowledgement
 
+-  fhttps://github.com/be5invis/Iosevka for font.
 - https://github.com/voidlhf/StarRailGrubThemes for icons.
