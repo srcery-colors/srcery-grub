@@ -18,6 +18,7 @@
 
 <p align="center">
 [THEME DESCRIPTION]
+Official theme for the [GNU GRUB](https://www.gnu.org/software/grub/) multiboot boot loader.
 </p>
 
 
@@ -38,5 +39,5 @@
 
 ## Acknowledgement
 
--  fhttps://github.com/be5invis/Iosevka for font.
+- https://github.com/be5invis/Iosevka for fonts.
 - https://github.com/voidlhf/StarRailGrubThemes for icons.
