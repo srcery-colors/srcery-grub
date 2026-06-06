@@ -17,13 +17,12 @@
 <h2 align="center">GNU GRUB</h2>
 
 <p align="center">
-Official theme for the [GNU GRUB](https://www.gnu.org/software/grub/) multiboot boot loader.
+Official theme for the <a href="https://www.gnu.org/software/grub/">GNU GRUB</a> multiboot boot loader.
 </p>
-
 
 ## Requirements
 
-- GRUB
+- [GNU GRUB](https://www.gnu.org/software/grub/)
 
 
 ## Installation
