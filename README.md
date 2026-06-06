@@ -17,7 +17,6 @@
 <h2 align="center">GNU GRUB</h2>
 
 <p align="center">
-[THEME DESCRIPTION]
 Official theme for the [GNU GRUB](https://www.gnu.org/software/grub/) multiboot boot loader.
 </p>
 
