@@ -1,5 +1,5 @@
 # Srcery GRUB Theme
-# Palette: #121212 (Bg), #FCE8C3 (Fg), #68A8E4 (Blue), #519F50 (Green)
+# Palette: #121110 (Bg), #FCE8C3 (Fg), #68A8E4 (Blue), #519F50 (Green)
 
 # Global Settings
 title-font: "Iosevka Regular 24"
@@ -14,8 +14,7 @@ terminal-height: "100%"
 terminal-border: "0"
 
 # Background
-# desktop-image: "background.jpg"
-desktop-color: "#1C1B19"
+desktop-color: "#121110"
 
 # Glyph
 + image {
@@ -30,10 +29,9 @@ desktop-color: "#1C1B19"
   width = 70%
   top = 25%
   height = 50%
-  item_font = "Iosevka Regular 24"
-  item_color = "#BAA67F"
+  item_font = "Iosevka Fixed Regular 24"
+  item_color = "#C5B088"
   selected_item_color = "#FCE8C3"
-  #selected_item_pixmap = "select_bar.png"
   icon_width = 32
   icon_height = 32
   item_icon_space = 15
@@ -46,36 +44,39 @@ desktop-color: "#1C1B19"
   left = 15%
   width = 70%
   align = "center"
+  font = "Iosevka Fixed Regular 18"
   color = "#BAA67F"
   text = "Use ↑/↓ to navigate, Enter to boot, 'e' to edit"
 }
 
 # TEXT
 + label {
-    id = "__timeout__"
+  id = "__timeout__"
 
-    left = 50%
-    top = 100%-31
-    height = 24
-    width = 50%-6
+  left = 50%
+  top = 100%-31
+  height = 18
+  width = 50%-6
 
-    text = "Joining world in %d seconds"
-    align = "right"
-    font = "Iosevka Regular 24"
-    color = "white"
+  text = "Starting in %d seconds"
+  align = "right"
+  font = "Iosevka Fixed Italic 18"
+  color = "#C5B088"
 }
 
 # SHADOW
 + label {
-    id = "__timeout__"
+  id = "__timeout__"
 
-    left = 50%+3
-    top = 100%-28
-    height = 24
-    width = 50%-6
+  left = 50%+1
+  top = 100%-30
+  height = 18
+  width = 50%-6
 
-    text = "Joining world in %d seconds"
-    align = "right"
-    font = "Iosevka Regular 24"
-    color = "#3f3f3f"
+  text = "Starting in %d seconds"
+  align = "right"
+  font = "Iosevka Fixed Italic 18"
+  color = "#917E6B"
 }
+
+# vim: set ft=grub et ts=2 sw=2:
