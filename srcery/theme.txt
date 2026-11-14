@@ -3,7 +3,7 @@
 
 # Global Settings
 title-font: "Iosevka Regular 24"
-title-color: "#BAA67F"
+title-color: "#C5B088"
 message-font: "Iosevka Regular 24"
 message-color: "#E02C6D"
 terminal-font: "Iosevka Regular 24"
@@ -45,7 +45,7 @@ desktop-color: "#121110"
   width = 70%
   align = "center"
   font = "Iosevka Fixed Regular 18"
-  color = "#BAA67F"
+  color = "#C5B088"
   text = "Use ↑/↓ to navigate, Enter to boot, 'e' to edit"
 }
 
