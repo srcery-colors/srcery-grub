@@ -37,5 +37,9 @@ Official theme for the <a href="https://www.gnu.org/software/grub/">GNU GRUB</a>
 
 ## Acknowledgement
 
-- https://github.com/be5invis/Iosevka for fonts.
-- https://github.com/voidlhf/StarRailGrubThemes for icons.
+- https://github.com/be5invis/Iosevka for fonts, licensed under the SIL Open
+  Font License 1.1. See [`srcery/OFL-Iosevka.txt`](srcery/OFL-Iosevka.txt).
+- https://github.com/voidlhf/StarRailGrubThemes for icons (all except
+  `uefi.png`), licensed under the GNU GPL v3.0. See
+  [`srcery/icons/LICENSE`](srcery/icons/LICENSE). The rest of this repository
+  is MIT.
